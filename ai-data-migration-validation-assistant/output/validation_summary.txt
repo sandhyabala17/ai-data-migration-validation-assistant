@@ -1,0 +1,9 @@
+{
+  "missing_columns": ["email", "dob"],
+  "extra_columns": [],
+  "source_row_count": 4,
+  "target_row_count": 4,
+  "row_difference": 0,
+  "mismatched_values": 1,
+  "overall_accuracy": 75.0
+}

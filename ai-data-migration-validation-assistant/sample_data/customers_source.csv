@@ -1,0 +1,5 @@
+id,name,email,region,dob
+1,Ravi,ravi@example.com,South,1990-05-12
+2,Meena,meena@example.com,North,1988-09-10
+3,Arun,arun@example.com,West,1992-03-15
+4,Lakshmi,lakshmi@example.com,East,1991-12-02
