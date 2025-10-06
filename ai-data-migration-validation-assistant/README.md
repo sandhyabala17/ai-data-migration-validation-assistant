@@ -1,16 +1,16 @@
-# 🤖 AI Data Migration Validation Assistant
+# AI Data Migration Validation Assistant
 
 An AWS-inspired project that automates data migration validation and explains results in natural language using Generative AI concepts.
 
 ---
 
-## 🚀 Overview
+## Overview
 Data migration from legacy CSVs or on-prem databases to cloud systems (like Amazon RDS or Redshift) often introduces schema mismatches, row count differences, or value inconsistencies.  
 This assistant **automates validation** and produces **human-readable summaries**, helping engineers quickly identify and fix migration issues.
 
 ---
 
-## ⚙️ What it Does
+##  What it Does
 - Compares source and target datasets:
   - Schema (missing or extra columns)
   - Row counts
@@ -20,16 +20,16 @@ This assistant **automates validation** and produces **human-readable summaries*
 
 **Example Summary:**
 ```
-✅ Source Rows: 4, Target Rows: 4
-⚠️ Missing Columns: ['email', 'dob']
-❗ Value Mismatches: 1
-✅ Overall Accuracy: 75.0%
+Source Rows: 4, Target Rows: 4
+ Missing Columns: ['email', 'dob']
+ Value Mismatches: 1
+ Overall Accuracy: 75.0%
 Recommendation: Verify ETL mapping for missing fields and mismatched region values.
 ```
 
 ---
 
-## 🏗️ How We Built It
+##  How We Built It
 - **Python** – Data validation and logic
 - **Pandas** – Handling CSV data comparison
 - **AWS Concepts** (for real-world deployment):
@@ -42,7 +42,7 @@ Recommendation: Verify ETL mapping for missing fields and mismatched region valu
 
 ---
 
-## 📂 Folder Structure
+##  Folder Structure
 ```
 ai-data-migration-validation-assistant/
 ├── README.md
@@ -56,10 +56,10 @@ ai-data-migration-validation-assistant/
 
 ---
 
-## 🚀 Try It Out
+##  Try It Out
 1. Clone the repository:
 ```bash
-git clone https://github.com/<yourusername>/ai-data-migration-validation-assistant.git
+git clone https://github.com/sandhyabala17/ai-data-migration-validation-assistant.git
 cd ai-data-migration-validation-assistant
 ```
 2. Install dependencies:
@@ -76,7 +76,7 @@ python validation_agent.py
 
 ---
 
-## 🔮 Future Work / AWS Integration
+##  Future Work / AWS Integration
 - Replace mock AI summaries with **Amazon Bedrock** for real natural-language reporting  
 - Automate **Lambda triggers** for new file uploads in S3  
 - Add **QuickSight dashboards** for visual validation  
@@ -84,6 +84,6 @@ python validation_agent.py
 
 ---
 
-## 🧑‍💻 Author
+##  Author
 **Sandhya Balakrishnan**  
 Solo project for **AWS AI Hackathon 2025**
